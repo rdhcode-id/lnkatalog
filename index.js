@@ -15,6 +15,6 @@
 Catatan:
 ${form.inCatatan.value}
 
-Foto Product: ${getPict}
+
 
 Mohon info selanjutnya kak, terimakasih.`;""!==form.inName.value?(form.this.className="disNone",setTimeout(()=>{thankEl.className="thank"},100),setTimeout(()=>{window.open(`https://wa.me/${set.wa}?text=${encodeURIComponent(t)}`)},2e3),setTimeout(()=>{window.location.reload()},3e3)):(form.inName.style.border="red solid 2px",form.inName.style.animation="shake-horizontal 1s linear 0s 1 normal none",form.inName.placeholder="silahkan isi nama")});
